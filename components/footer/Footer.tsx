@@ -23,7 +23,13 @@ const Footer = () => (
         isExternal={true}
         text="GitHub"
       />
-      .
+      . Shout out to{" "}
+      <GenericLink
+        href="https://github.com/Runkang10/portfolio"
+        isExternal={true}
+        text="Runkang10"
+      />{" "}
+      for the original template.
     </p>
   </footer>
 )
