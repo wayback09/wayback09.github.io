@@ -151,47 +151,6 @@
   }
 }
 
-@keyframes tv-flicker {
-  0%, 100% { opacity: 0.55; }
-  8% { opacity: 0.7; }
-  9% { opacity: 0.45; }
-  10% { opacity: 0.65; }
-  36% { opacity: 0.6; }
-  37% { opacity: 0.4; }
-  38% { opacity: 0.62; }
-  70% { opacity: 0.58; }
-  71% { opacity: 0.75; }
-  72% { opacity: 0.55; }
-}
-
-@keyframes tv-hum {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
-
-.tv-static-canvas {
-  image-rendering: pixelated;
-  animation: tv-flicker 4s steps(1) infinite;
-}
-
-.tv-scanlines {
-  background: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 2px,
-    rgba(0, 0, 0, 0.28) 3px,
-    rgba(0, 0, 0, 0.28) 4px
-  );
-}
-
-.tv-vignette {
-  background: radial-gradient(
-    ellipse at center,
-    transparent 52%,
-    rgba(0, 0, 0, 0.42) 100%
-  );
-}
-
 .tv-glow-text {
   text-shadow:
     0 0 18px var(--tv-glow),
