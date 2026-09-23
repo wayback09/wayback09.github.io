@@ -5,17 +5,17 @@ import NameMc from "@/public/namemc.png"
 const socialLinks = [
   {
     icon: NameMc,
-    href: "https://namemc.com/profile/Runkang10.1?q=72bcd535-9d39-407e-8cc2-bc7cf5b49714",
+    href: "https://namemc.com/search?q=_w4yback",
     alt: "NameMc",
   },
   {
     icon: Discord,
-    href: "https://discord.com/users/1226628234041626795",
+    href: "https://discord.com/users/1467226109237264650",
     alt: "Discord",
   },
   {
     icon: Github,
-    href: "https://github.com/Runkang10",
+    href: "https://github.com/wayback09",
     alt: "Github",
   },
 ]

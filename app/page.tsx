@@ -7,10 +7,11 @@ export default function Page() {
             className="text-5xl font-bold"
             style={{ textShadow: "0 4px 8px var(--foreground)" }}
           >
-            Hi, I'm Runkang10
+            Hi, I'm wayback
           </h1>
           <p className="text-lg font-semibold text-muted-foreground">
-            A carbon developer... Don't even know what else to put :/
+            I build custom Minecraft plugins for servers and open-source apps
+            & tools.
           </p>
         </div>
       </div>
@@ -19,12 +20,23 @@ export default function Page() {
           Tech stacks
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-          <TechStack title="Kotlin" elements={["Paper API", "JDA"]} />
+          <TechStack title="Minecraft" elements={["Paper API", "Java"]} />
           <TechStack
-            title="TypeScript"
-            elements={["HTML/CSS/JS", "Astro.js", "Next.js", "Tailwind CSS"]}
+            title="Languages"
+            elements={["Go", "Rust", "TypeScript", "Python", "Java"]}
           />
-          <TechStack title="Go" elements={["Disgo"]} />
+          <TechStack
+            title="Tools & Frameworks"
+            elements={[
+              "Wails",
+              "Svelte",
+              "React",
+              "SQLite",
+              "Git",
+              "Linux",
+              "Windows",
+            ]}
+          />
         </div>
       </div>
     </div>

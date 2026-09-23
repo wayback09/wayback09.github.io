@@ -13,13 +13,13 @@ const Footer = () => (
     <p className="text-center text-xs text-muted-foreground">
       Made by{" "}
       <GenericLink
-        href="https://github.com/Runkang10"
+        href="https://github.com/wayback09"
         isExternal={true}
-        text="Runkang10"
+        text="wayback"
       />
       , source available on{" "}
       <GenericLink
-        href="https://github.com/Runkang10/portfolio"
+        href="https://github.com/wayback09/portfolio"
         isExternal={true}
         text="GitHub"
       />

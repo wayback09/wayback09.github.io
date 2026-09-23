@@ -7,10 +7,10 @@ interface ModrinthProject {
 async function getModrinthProjects(): Promise<ModrinthProject[]> {
   try {
     const res = await fetch(
-      "https://api.modrinth.com/v2/user/runkang10/projects",
+      "https://api.modrinth.com/v2/user/wayback/projects",
       {
         headers: {
-          "User-Agent": "runkang10-portfolio",
+          "User-Agent": "wayback-portfolio",
         },
         next: { revalidate: 86400 },
       }

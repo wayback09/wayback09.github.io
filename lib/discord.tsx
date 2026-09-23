@@ -11,8 +11,8 @@ const template = {
         accessory: {
           type: 11,
           media: {
-            url: "https://runkang10.is-a.dev/logo-square.webp",
-            proxy_url: "https://runkang10.is-a.dev/logo-square.webp",
+            url: "https://github.com/wayback09.png",
+            proxy_url: "https://github.com/wayback09.png",
           },
           description: null,
           spoiler: false,
@@ -21,7 +21,7 @@ const template = {
           {
             type: 10,
             content:
-              "# Hi!, I'm Runkang10\nA carbon developer... Don't even know what else to put :/",
+              "# Hi!, I'm wayback\nI build custom Minecraft plugins for servers and open-source apps & tools.",
           },
         ],
       },
@@ -48,7 +48,7 @@ const template = {
             label: "Portfolio",
             emoji: null,
             disabled: false,
-            url: "https://runkang10.is-a.dev",
+            url: "https://github.com/wayback09/portfolio",
           },
           {
             type: 2,
@@ -56,7 +56,7 @@ const template = {
             label: "GitHub",
             emoji: null,
             disabled: false,
-            url: "https://github.com/Runkang10",
+            url: "https://github.com/wayback09",
           },
           {
             type: 2,
@@ -64,7 +64,7 @@ const template = {
             label: "Modrinth",
             emoji: null,
             disabled: false,
-            url: "https://modrinth.com/user/Runkang10",
+            url: "https://modrinth.com/user/wayback",
           },
         ],
       },

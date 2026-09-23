@@ -7,18 +7,18 @@ import Link from "next/link"
 
 const Contacts = [
   {
-    label: "chen.runkang10@gmail.com",
-    href: "mailto:chen.runkang10@gmail.com",
+    label: "wayback145b@gmail.com",
+    href: "mailto:wayback145b@gmail.com",
     icon: <Mail className="h-auto w-4.5 text-foreground" />,
   },
   {
-    label: "Runkang10",
-    href: "https://github.com/Runkang10",
+    label: "wayback09",
+    href: "https://github.com/wayback09",
     icon: <Image src={Github} alt="" width={18} height={18} />,
   },
   {
-    label: "@runkang10",
-    href: "https://discord.com/users/1226628234041626795",
+    label: "wayback",
+    href: "https://discord.com/users/1467226109237264650",
     icon: <Image src={Discord} alt="" className="h-auto w-4.5" />,
   },
 ]

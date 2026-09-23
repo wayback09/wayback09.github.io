@@ -17,19 +17,19 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Runkang10",
-    template: "Runkang10 | %s",
+    default: "wayback",
+    template: "wayback | %s",
   },
   icons: {
-    icon: "/logo-square.svg",
+    icon: "/logo.jpg",
   },
   openGraph: {
     title: {
-      default: "Runkang10",
-      template: "Runkang10 | %s",
+      default: "wayback",
+      template: "wayback | %s",
     },
-    description: "Hi, I'm Runkang10!",
-    images: "logo-square.svg",
+    description: "Hi, I'm wayback!",
+    images: "/logo.jpg",
   },
 }
 
