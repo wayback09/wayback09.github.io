@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/Footer"
 import Nav from "@/components/nav/Nav"
 import { ThemeProvider } from "@/components/ThemeProvider"
+import TvStatic from "@/components/TvStatic"
 import { DiscordEmbed } from "@/lib/discord"
 import { cn } from "@/lib/utils"
 
@@ -50,6 +51,7 @@ export default async function RootLayout({
       </head>
       <body className="relative flex min-h-screen flex-col">
         <ThemeProvider>
+          <TvStatic />
           <Nav />
           <div className="flex min-h-160 flex-1 flex-col px-8 py-16">
             {children}
