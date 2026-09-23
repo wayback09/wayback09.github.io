@@ -1,15 +1,11 @@
 import { getProjects } from "@/lib/projects"
 
-// TV cyan #00CEFF as a decimal accent color (Components V2: integer).
-const ACCENT_COLOR = 0x00ceff
-
 const EMBED_URL = "https://wayback09.github.io/embeds"
 
 function baseTemplate() {
   return {
     component: {
       type: 17,
-      accent_color: ACCENT_COLOR,
       spoiler: false,
       components: [
         {
