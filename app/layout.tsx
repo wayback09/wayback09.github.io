@@ -16,6 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://wayback09.github.io"),
   title: {
     default: "wayback",
     template: "wayback | %s",
