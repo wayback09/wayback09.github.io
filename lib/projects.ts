@@ -1,10 +1,18 @@
-interface ModrinthProject {
+interface Project {
   title: string
   slug: string
   href: string
 }
 
-async function getModrinthProjects(): Promise<ModrinthProject[]> {
+const GITHUB_PROJECTS: Project[] = [
+  {
+    title: "Aether",
+    slug: "aether",
+    href: "https://github.com/Aether-Launcher/Aether",
+  },
+]
+
+async function getModrinthProjects(): Promise<Project[]> {
   try {
     const res = await fetch(
       "https://api.modrinth.com/v2/user/wayback/projects",
@@ -21,7 +29,7 @@ async function getModrinthProjects(): Promise<ModrinthProject[]> {
     const data: any[] = await res.json()
     return data
       .filter((project) => project.project_type === "mod")
-      .map((project): ModrinthProject => ({
+      .map((project): Project => ({
         title: project.title,
         slug: project.slug,
         href: `https://modrinth.com/project/${project.slug}`,
@@ -32,4 +40,12 @@ async function getModrinthProjects(): Promise<ModrinthProject[]> {
   }
 }
 
-export { getModrinthProjects }
+async function getProjects(): Promise<Project[]> {
+  const modrinth = await getModrinthProjects()
+  return [...GITHUB_PROJECTS, ...modrinth].sort((a, b) =>
+    a.title.localeCompare(b.title)
+  )
+}
+
+export { getModrinthProjects, getProjects }
+export type { Project }
